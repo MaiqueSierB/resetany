@@ -22,12 +22,12 @@ Este script permite **resetar a licença gratuita do AnyDesk**, removendo o bloq
 Execute o comando abaixo no PowerShell (como administrador):
 
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/henriquelucas/Reset-Licen-a-Anydesk/main/Anydesk-Reset.cmd" -OutFile "Anydesk_reset.cmd"; Start-Process "Anydesk_reset.cmd"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/MaiqueSierB/resetany/main/Anydesk-Reset.cmd" -OutFile "Anydesk_reset.cmd"; Start-Process "Anydesk_reset.cmd"
 ```
 
 ### 🧭 Método manual
 
-1. Baixe o arquivo [`Anydesk-Reset.cmd`](https://raw.githubusercontent.com/henriquelucas/Reset-Licen-a-Anydesk/main/Anydesk-Reset.cmd)  
+1. Baixe o arquivo [`Anydesk-Reset.cmd`](https://raw.githubusercontent.com/MaiqueSierB/resetany/main/Anydesk-Reset.cmd)  
 2. Clique com o botão direito e selecione **"Executar como administrador"**.  
 3. Aguarde a execução do script.  
 4. Se o AnyDesk não iniciar automaticamente, **reinicie o computador manualmente**.
